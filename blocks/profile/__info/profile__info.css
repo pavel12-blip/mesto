@@ -1,5 +1,5 @@
-.profile__info{
-    display: grid;
-    grid-template-columns: 1frv minmax(auto,25px);
-    grid-gap:16px
+.profile__info {
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 24px);
+  grid-gap: 16px 17px;
 }

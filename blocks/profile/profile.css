@@ -1,6 +1,8 @@
 .profile{
+  min-width: 882px;
   width: 100%;
   margin-top: 36px;
   display: flex;
-  align-items: center;  
+  justify-content: space-between;
+  position: relative;
 }

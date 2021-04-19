@@ -1,0 +1,7 @@
+.profile__button-edit{
+    background-image: url(../../../images/Vector2.png);
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid #fff;
+    align-self: center;
+}
