@@ -5,4 +5,12 @@
   min-height: 50px;
   align-self: center;
   border: 1px solid #fff;
+  position: absolute;
+  right: 0;
+}
+@media screen and (max-width: 910px) {
+  .profile__button-add {
+    position: static;
+    margin-top: 36px;
+  }
 }

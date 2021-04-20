@@ -2,4 +2,10 @@
   display: grid;
   grid-template-columns: 1fr minmax(auto, 24px);
   grid-gap: 16px 17px;
+  margin-top: 26px;
+}
+@media screen and (max-width: 910px) {
+  .profile__info {
+    text-align: center;
+  }
 }
