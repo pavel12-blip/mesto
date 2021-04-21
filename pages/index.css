@@ -20,3 +20,6 @@
 @import url(../blocks/profile/__button-add/profile__button-add.css);
 
 @import url(../blocks/elements/elements.css);
+@import url(../blocks/elements/__card-list/elements__cards-list.css);
+@import url(../blocks/elements/__card/elements__card.css);
+@import url(../blocks/elements/__photo/card__photo.css);
