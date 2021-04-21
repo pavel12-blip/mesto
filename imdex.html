@@ -26,11 +26,15 @@
             <button
               type="button"
               aria-label="Редактировать профиль"
-              class="button profile__button-edit transition"
+              class="button profile__button-edit button__transition"
             ></button>
             <p class="profile__about">Исследователь океана</p>
           </div>
-          <div class="button profile__button-add"></div>
+          <button
+            type="button"
+            aria-label="Добавить фотографии"
+            class="button profile__button-add button__transition"
+          ></button>
         </section>
         <section class="elements">
           <ul class="elements__cards-list">
@@ -42,6 +46,29 @@
               />
               <div class="card__discription">
                 <h2 class="card__title">Карачаевск</h2>
+                <button aria-label="Поставить лайк"
+                class="card__like"></button>
+              </div>
+            </li>
+            <li class="elements__card">
+              <img
+                class="card__photo"
+                src="./images/Elbrus.jpg"
+                alt="Гора Эльбрус"
+              />
+              <div class="card__discription">
+                <h2 class="card__title">Гора Эльбрус</h2>
+                <div class="card__like"></div>
+              </div>
+            </li>
+            <li class="elements__card">
+              <img
+                class="card__photo"
+                src="./images/Dombai.jpg"
+                alt="Домбай"
+              />
+              <div class="card__discription">
+                <h2 class="card__title">Домбай</h2>
                 <div class="card__like"></div>
               </div>
             </li>

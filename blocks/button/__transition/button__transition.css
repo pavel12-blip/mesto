@@ -1,0 +1,7 @@
+.button__transition{
+    opacity: 1;
+    transition: opacity .7s ease-in-out;
+}
+.button__transition:hover{
+    opacity: .6;
+}
