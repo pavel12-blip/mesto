@@ -13,7 +13,7 @@ function closePopup(){
     blockPopup.classList.remove("popup_open")
 }
 function savePopup(){
-    Event.preventDefault():
+    Event.preventDefault();
     nameInput.textContent = nameInput.value;
     jobInput.textContent = jobInput.value;
 }
