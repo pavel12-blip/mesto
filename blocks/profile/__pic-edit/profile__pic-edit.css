@@ -1,4 +1,4 @@
-.profile__edit {
+.profile__pic-edit {
   margin: 0;
   margin-top: 77px;
   width: 24px;
@@ -11,12 +11,12 @@
   background-position: center;
   outline: none;
 }
-.profile__edit:hover {
+.profile__pic-edit:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 @media screen and (max-width: 910px) {
-  .profile__edit {
+  .profile__pic-edit {
     align-self: center;
   }
 }
