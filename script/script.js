@@ -16,7 +16,9 @@ function savePopup(){
     Event.preventDefault();
     nameInput.textContent = nameInput.value;
     jobInput.textContent = jobInput.value;
+    closePopup()
 }
 
-blockPopup.addEventListener('click', togglePopup);
+blockPopup.addEventListener('submit', togglePopup);
+closeBlockPopup.addEventListener('click', togglePopup);
 closePopup.addEventListener('click',togglePopup);
