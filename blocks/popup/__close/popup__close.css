@@ -1,5 +1,5 @@
-.popup__close{
-    position: absolute;
+.popup__close {
+  position: absolute;
   margin: auto;
   top: -35px;
   left: 425px;
@@ -14,16 +14,15 @@
   outline: none;
   background-image: url(../../../images/Close\ Icon.png);
 }
-.popup__close:hover{
+.popup__close:hover {
   cursor: pointer;
   opacity: 0.5;
 }
-@media screen and (min-width: 320px) and (max-width:509px)
-{
-  .popup__close{
+@media screen and (max-width: 910px) {
+  .popup__close {
     width: 26px;
     height: 26px;
     top: -36px;
     left: 263px;
   }
-} 
+}
