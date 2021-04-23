@@ -5,18 +5,18 @@
   height: 24px;
   background-color: #000000;
   border: 1px solid #ffffff;
-  background-image: url(../../../image/Vector.svg);
+  background-image: url(../../../images/Vector2.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
 }
-.profile__pic-edit:hover {
+.profile__edit:hover {
   cursor: pointer;
   opacity: 0.5;
 }
 @media screen and (max-width: 910px) {
-  .profile__pic-edit {
+  .profile__edit {
     align-self: center;
   }
 }

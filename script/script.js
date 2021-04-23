@@ -4,7 +4,7 @@ let closeBlockPopup = blockPopup.querySelector('.popup__close');
 let nameFromPage = document.querySelector('.profile__name');
 let jobFromPage = document.querySelector('.profile__profession');
 let nameFromForm = document.querySelector('.popup__input_name');
-let jobFromForm = document.querySelector('.popup__input_work');
+let jobFromForm = document.querySelector('.popup__input_profession');
 function togglePopup(){
   blockPopup.classList.toggle('popup_opened');
   nameFromForm.value = nameFromPage.textContent;
