@@ -1,11 +1,3 @@
-.profile {
-  display: flex;
-  align-items: center;
-}
-@media screen and (max-width: 910px) {
-  .profile {
-    flex-direction: column;
-    align-items: center;
-    margin-left: auto 10%;
-  }
+.profile{
+    
 }
