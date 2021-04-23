@@ -1,7 +1,7 @@
 # Проект 4: Место
 
 ### Обзор
-https://pavel12-blip.github.io/mesto/.html
+https://pavel12-blip.github.io/mesto/index.html
 
 * Figma
 * Картинки
