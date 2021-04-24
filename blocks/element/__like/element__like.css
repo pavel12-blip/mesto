@@ -1,5 +1,5 @@
-.element__like{
-  width: 21px;
+.element__like {
+  width: 22px;
   height: 19px;
   margin: 6px 7.24px 1.13px 0px;
   background-color: #ffffff;
@@ -11,6 +11,10 @@
   outline: none;
   cursor: pointer;
 }
-.element__like:hover{
+.element__like:hover {
   opacity: 0.5;
+}
+.element__like:active {
+  background-image: url(../../../image/Union\ black.png);
+  opacity: 1;
 }
