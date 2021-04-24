@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="Ru">
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./pages/index.css" />
-  <link rel="stylesheet" href="./vendor/normalize.css" />
-  <script src="./script/script.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <meta name="description" content="Интерактивная страница Mesto">
+  <meta name="author" content="Айтжанов Темирлан">
   <title>Mesto</title>
 </head>
 
-<body class="page">
-  <header class="header">
-    <img class="header__logo" src="./images/Vector.png" alt="Лого проекта" />
-  </header>
-  <maim class="container">
-    <div class="content">
+<body>
+  <div class="page">
+    <header class="header">
+      <img src="./image/logo.svg" alt="Логотип хедер" class="header__logo">
+    </header>
+    <main>
       <section class="profile">
-        <img src="./images/image.jpg" alt="Фото профайла" class="profile__photo">
+        <img src="image/image.jpg" alt="Фото профайла" class="profile__photo">
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button class="profile__pic-edit" type="button"></button>
@@ -26,68 +26,67 @@
         <button class="profile__add-button" type="button"></button>
       </section>
       <section class="elements">
-        <ul class="elements__cards-list">
-          <li class="card">
-            <img class="card__photo" src="./images/Karachaevsk.jpg" alt="Карачаевск" />
-            <div class="card__discription">
-              <h2 class="card__title">Карачаевск</h2>
-              <img class="card__like-image" src="./images/Vector-like.svg">
-            </div>
-          </li>
-          <li class="card">
-            <img class="card__photo" src="./images/Elbrus.jpg" alt="Гора Эльбрус" />
-            <div class="card__discription">
-              <h2 class="card__title">Гора Эльбрус</h2>
-              <img class="card__like-image" src="./images/Vector-like.svg">
-            </div>
-          </li>
-          <li class="card">
-            <img class="card__photo" src="./images/Dombai.jpg" alt="Домбай" />
-            <div class="card__discription">
-              <h2 class="card__title">Домбай</h2>
-              <img class="card__like-image" src="./images/Vector-like.svg">
-            </div>
-          </li>
-          <li class="card">
-            <img class="card__photo" src="./images/Elbrus.jpg" alt="Гора Эльбрус" />
-            <div class="card__discription">
-              <h2 class="card__title">Гора Эльбрус</h2>
-              <img class="card__like-image" src="./images/Vector-like.svg">
-            </div>
-          </li>
-          <li class="card">
-            <img class="card__photo" src="./images/Dombai.jpg" alt="Домбай" />
-            <div class="card__discription">
-              <h2 class="card__title">Домбай</h2>
-              <img class="card__like-image" src="./images/Vector-like.svg">
-            </div>
-          </li>
-          <li class="card">
-            <img class="card__photo" src="./images/Karachaevsk.jpg" alt="Карачаевск" />
-            <div class="card__discription">
-              <h2 class="card__title">Карачаево-Черкессия</h2>
-              <img class="card__like-image" src="./images/Vector-like.svg">
-            </div>
-          </li>
-        </ul>
-      </section>
-      <footer class="footer">
-        <p class="footer__copyright">© 2021 Mesto Russia</p>
-      </footer>
-
-      < <div class="popup">
-        <div class="popup__container">
-          <button type="button" class="popup__close"></button>
-          <h2 class="popup__title">Редактировать профиль</h2>
-          <form action="Url" class="popup__form" name="form">
-            <input type="text" class="popup__input popup__input_name">
-            <input type="text" class="popup__input popup__input_work">
-            <button type="submit" class="popup__submit">Сохранить</button>
-            <script src="./script/script.js"></script>
-          </form>
+        <div class="element">
+          <img src="image/kirill-pershin.png" alt="Чудестное место Карачаевск " class="element__image">
+          <div class="element__container">
+            <h2 class="element__name">Карачаевск</h2>
+            <button class="element__like" type="button"></button>
+          </div>
         </div>
-      </div>
-
+        <div class="element">
+          <img src="image/kirill-pershin-108.jpg" alt="Могучая гора Эльбрус" class="element__image">
+          <div class="element__container">
+            <h2 class="element__name">Гора Эльбрус</h2>
+            <button class="element__like" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img src="image/kirill-pershin-155.png" alt="Домбай есть на что посмотреть" class="element__image">
+          <div class="element__container">
+            <h2 class="element__name">Домбай</h2>
+            <button class="element__like" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img src="image/kirill-pershin.png" alt="Утрений Домбай всегда велик" class="element__image">
+          <div class="element__container">
+            <h2 class="element__name">Домбай</h2>
+            <button class="element__like" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img src="image/kirill-pershin-155.png" alt="Вечерний Эльбрус вечно прикованые взгляды"
+            class="element__image">
+          <div class="element__container">
+            <h2 class="element__name">Гора Эльбрус</h2>
+            <button class="element__like" type="button"></button>
+          </div>
+        </div>
+        <div class="element">
+          <img src="image/kirill-pershin-108.jpg" alt="Карачаево-Черкессия" class="element__image">
+          <div class="element__container">
+            <h2 class="element__name">Карачаево-Черкессия</h2>
+            <button class="element__like" type="button"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__link">&copy; 2020 Mesto Russia</p>
+    </footer>
+  </div>
+  <div class="popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form action="Url" class="popup__form" name="form">
+        <input type="text" class="popup__input popup__input_name">
+        <input type="text" class="popup__input popup__input_work">
+        <button type="submit" class="popup__submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>
