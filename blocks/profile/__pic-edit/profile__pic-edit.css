@@ -1,4 +1,4 @@
-.profile__pic-edit {
+.profile__pic-edit{
   margin: 0;
   margin-top: 77px;
   width: 24px;
@@ -10,8 +10,8 @@
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
-}
-.profile__pic-edit:hover {
+  }
+.profile__pic-edit:hover{
   cursor: pointer;
   opacity: 0.5;
 }
