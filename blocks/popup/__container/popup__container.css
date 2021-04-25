@@ -1,18 +1,16 @@
-.popup__container{
+.popup__container {
   display: grid;
   justify-content: center;
   align-items: center;
   max-width: 430px;
-  
   background-color: #fff;
-  
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
 
-@media screen and (max-width:910px){
-  .popup__container{
+@media screen and (max-width: 910px) {
+  .popup__container {
     margin-top: 32px;
     max-width: 282px;
     width: 100%;
