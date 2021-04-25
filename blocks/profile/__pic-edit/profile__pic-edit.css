@@ -10,10 +10,11 @@
   background-repeat: no-repeat;
   background-position: center;
   outline: none;
+  
 }
 .profile__pic-edit:hover {
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 910px) {
@@ -22,5 +23,6 @@
     margin-top: 10px;
     height: 18px;
     align-self: center;
+    
   }
 }

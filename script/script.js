@@ -20,5 +20,5 @@ function savePopup (event){
   closePopup();
 }
 openBlockPopup.addEventListener('click', togglePopup);
-closeBlockPopup.addEventListener('click', togglePopup);
+closeBlockPopup.addEventListener('click', closePopup);
 blockPopup.addEventListener('submit', savePopup);
